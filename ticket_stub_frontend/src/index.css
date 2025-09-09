@@ -8,4 +8,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-:focus-visible { outline: 3px dashed #9fa6ff; outline-offset: 2px; }
+/* Accessible, high-contrast focus ring with a pink tint to match theme */
+:focus-visible { outline: 3px dashed rgba(243, 79, 155, 0.7); outline-offset: 2px; }

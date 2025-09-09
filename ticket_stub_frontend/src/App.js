@@ -147,7 +147,7 @@ function NavBar({ onUpload, currentView, setView }) {
         <span className="logo-sticker">🎟️</span>
         <div className="brand">
           <div className="brand-title">Stub Scrapbook</div>
-          <div className="brand-subtitle">Little memories, big smiles</div>
+          <div className="brand-subtitle">Little memories, big smiles 💗</div>
         </div>
       </div>
 
