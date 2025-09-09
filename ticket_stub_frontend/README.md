@@ -1,82 +1,27 @@
-# Lightweight React Template for KAVIA
+# Stub Scrapbook — Cute React Frontend
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+A playful, scrapbook-styled React UI for organizing your ticket stubs and memories. The interface uses rounded shapes, pastel accents, and delightful doodles/washi tape motifs. It includes grid and scrapbook views, an upload modal, a details drawer, and a filter/search sidebar.
 
-## Features
+## Tech
+- React 18 + react-scripts
+- Pure CSS (no UI frameworks)
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+## Theme
+- Primary: #5636d3
+- Secondary: #f6f7fb
+- Accent: #ffbf47
+- Fonts: Baloo 2, Quicksand (Google Fonts)
 
-## Getting Started
+## Features (UI Scaffold)
+- User badge (avatar), navigation bar, and view toggle
+- Upload modal with image preview and form fields
+- Grid and scrapbook views for tickets
+- Details drawer to edit ticket info
+- Search and filter by year/type
+- Responsive layout
 
-In the project directory, you can run:
+## Getting started
+- npm start
+- Visit http://localhost:3000
 
-### `npm start`
-
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-## Customization
-
-### Colors
-
-The main brand colors are defined as CSS variables in `src/App.css`:
-
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
-```
-
-### Components
-
-This template uses pure HTML/CSS components instead of a UI framework. You can find component styles in `src/App.css`. 
-
-Common components include:
-- Buttons (`.btn`, `.btn-large`)
-- Container (`.container`)
-- Navigation (`.navbar`)
-- Typography (`.title`, `.subtitle`, `.description`)
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: Backend API/auth is not wired yet. The UI uses demo data in memory.
